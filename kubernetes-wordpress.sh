@@ -31,7 +31,7 @@ cat <<EOF >./kustomization.yaml
 secretGenerator:
 - name: mysql-pass
   literals:
-  - password=+FT[gJ}BO"pgLOC}hu6ckRjn<
+  - password=<password here>
 EOF
 
 #Apply
