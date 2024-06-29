@@ -10,6 +10,12 @@
 ####################################################
 #Clean up
 
+#Directories
+rm -rf /var/www/html/*
+rm -rf /var/www/html/.*
+rm -rf /var/lib/mysql/*
+rm -rf /var/lib/mysql/.*
+
 #svc
 kubectl delete svc my-wordpress
 kubectl delete svc wordpress-mysql
